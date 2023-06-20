@@ -1,0 +1,7 @@
+.main{
+    background-image: url(../../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+ 
+}
