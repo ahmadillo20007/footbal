@@ -1,6 +1,39 @@
 .navbar{
     background-image: url(../../img/nav__bg.png);
-    height: 797px;
     background-repeat: no-repeat;
     width: 170px;
+background-size: cover;
+}
+.navbar__logo{
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-right: 58px;
+}
+.navbar__list{
+    padding-bottom: 97.5px;
+    list-style-type: none;
+    margin-left: -15px;
+    margin-top: 118px;
+}
+.list__item{
+    margin-left: 22px;
+
+}
+hr{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+.navbar__list__item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #747474;
 }

@@ -1,4 +1,13 @@
 .header{
     display: flex;
+  
     
+}
+.swiper-button-prev{
+    padding-top: 400px;
+margin-left: 1200px;
+}
+.swiper-button-next{
+    padding-top: 400px;
+
 }

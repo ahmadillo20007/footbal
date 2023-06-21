@@ -1,10 +1,49 @@
 import React from 'react'
 import './Navbar.css'
+import logo from '../../img/logo.png'
+import news from '../../img/new.png'
+import med from '../../img/med.png'
+import shop from '../../img/shop.png'
+import team from '../../img/team.png'
+import statis from '../../img/statis.png'
+import aka from '../../img/aka.png'
+import home from '../../img/home.png'
 function Navbar() {
   return (
    <div className="navbar">
     <div className="container">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore distinctio, repellendus nam ratione maiores sunt modi id nemo voluptates nisi! Repudiandae rem eos corrupti aut ducimus nemo ab quisquam eius, quae alias omnis quos blanditiis temporibus. Sequi fugiat beatae officia deleniti earum, ratione architecto quam ipsam? Voluptatem magnam odio reprehenderit totam delectus veniam praesentium, sequi sit odit, eum iure facere ut voluptas obcaecati reiciendis, quia quis nam aperiam. Aut est dolor corrupti ea ex saepe nisi deleniti laborum fugit dolore corporis enim earum, blanditiis explicabo eligendi illo reiciendis nam laboriosam autem doloremque mollitia molestias quia rerum. Labore, ipsum repudiandae!
+      <img className='navbar__logo' src={logo} alt="" />
+      <ul className='navbar__list'>
+        <hr />
+        <li className='navbar__list__item'>
+        Bosh sahifa <img className='list__item' src={home} alt="" />
+        </li>
+        <hr />
+        <li className='navbar__list__item'>
+        Yangiliklar <img className='list__item' src={news} alt="" />
+        </li>
+        <hr />
+        <li className='navbar__list__item'>
+        Media <img className='list__item' src={med} alt="" />
+        </li>
+        <hr />
+        <li className='navbar__list__item'>
+        Do’kon <img className='list__item' src={shop} alt="" />
+        </li>
+        <hr />
+        <li className='navbar__list__item'>
+        Klub <img className='list__item' src={team} alt="" />
+        </li>
+        <hr />
+        <li className='navbar__list__item'>
+        Statistika <img className='list__item' src={statis} alt="" />
+        </li>
+        <hr />
+        <li className='navbar__list__item'>
+        Akademiya <img className='list__item' src={aka} alt="" />
+        </li>
+        <hr />
+      </ul>
     </div>
    </div>
   )
