@@ -1,5 +1,5 @@
-import Hero from "../../components/Hero/Hero"
-import NavBar from "../../components/NavBar/NavBar"
+import Hero from "../../components/Hero/Hero.jsx"
+import NavBar from "../../components/NavBar/NavBar.jsx"
 import "./Store.scss"
 import React from 'react'
 

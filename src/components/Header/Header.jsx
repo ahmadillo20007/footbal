@@ -1,17 +1,10 @@
 import './Header.css'
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../NavBar/NavBar.jsx'
 import Main from '../Main/Main'
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
-
-
-// import required modules
 import { Navigation } from "swiper";
 function Header() {
   return (
@@ -33,7 +26,6 @@ function Header() {
         <SwiperSlide><Main/></SwiperSlide>
         <SwiperSlide><Main/></SwiperSlide>
       </Swiper>
-
     </div>
   )
 }
