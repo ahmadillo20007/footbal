@@ -1,0 +1,51 @@
+.practise{
+    background-image: url(../../img/mus.png);
+    background-size: cover;
+    margin-top: -35px;
+    padding-top: 35px;
+padding-bottom: 93.7px;
+
+}
+.pra__text{
+ margin-top: 88px;   
+ margin-left: 50px;
+ color: #FFF;
+ font-size: 29px;
+ font-family: Jost;
+ font-weight: 600;
+ display: flex;
+width: 495px;
+flex-direction: column;
+flex-shrink: 0;
+}
+.pra__item{
+    margin-top: 57px;    margin-left: 61px;
+    display: flex;
+width: 582.344px;
+height: 181.554px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-size: 20.553px;
+font-family: Jost;
+}
+.pra__btn{
+    border-left: none;
+    border-right: none;
+    margin-top: 65px;
+    margin-left: 61px;
+    background: none;
+    color: #FFF;
+font-size: 23.582px;
+font-family: Jost;
+    display: flex;
+width: 154.356px;
+height: 49.308px;
+padding: 7.503px 35.373px;
+align-items: flex-start;
+gap: 10.719px;
+flex-shrink: 0;
+border-top: 1.072px solid #FFF;
+border-bottom: 1.072px solid #FFF;
+
+}

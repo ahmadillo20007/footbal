@@ -3,6 +3,7 @@ import './Info.css'
 function Info() {
   return (
     <div className='info'>
+
         <h1 className='info__text'>
         Farhod Sohibjonov: <br />
 "Xudo xohlasa, chempionatni <br />
@@ -10,6 +11,7 @@ function Info() {
         </h1>
         <button className='info__btn'>Barchasi</button>
     </div>
+
   )
 }
 
