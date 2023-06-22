@@ -1,5 +1,5 @@
 import './Header.css'
-import Navbar from '../NavBar/NavBar.jsx'
+import Navbar from '../Navbar/Navbar.jsx'
 import Main from '../Main/Main'
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
