@@ -1,5 +1,5 @@
 import Footer from "../../components/Footer/Footer.jsx"
-import Hero from "../../components/Hero/Hero.jsx"
+import Hero2 from "../../components/Hero2/Hero2.jsx"
 import Shop from "../../components/Shop/Shop.jsx"
 import Top from "../../components/Top/Top.jsx"
 import "./Store.scss"
@@ -10,7 +10,7 @@ function Store() {
       <div className="store">
         <Top/>
         <Shop/>
-        <Hero/>
+        <Hero2/>
         <Footer/>
       </div>
   )

@@ -3,8 +3,8 @@
 footer {
     padding-top: 97px;
     padding-bottom: 15px;
-    background: #001204;
-    background-image: url(../../img/bgg.png);
+    background: #FFFFFF;
+    background-image: url(../../img/footer-line.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top 72px;
@@ -71,7 +71,7 @@ footer {
         top: -10px;
         transition: all 0.3s ease;
         border-radius: 50px;
-}
+    }
 
     a:hover {
         color: #F00;
@@ -82,15 +82,22 @@ footer {
     }
 }
 
+.last-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .footer-address__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 457.77px;
-    margin: 0 auto;
-    margin-bottom: 106px;
+
     .tel-address__wrapper {
         display: block;
+
         h5 {
             font-family: 'Roboto';
             font-style: normal;
@@ -99,9 +106,10 @@ footer {
             line-height: 14px;
             display: flex;
             align-items: center;
-            color: #FFFFFF;
+            color: #000000;
             margin-bottom: 3px;
         }
+
         a {
             font-family: 'Roboto';
             font-style: normal;
@@ -113,16 +121,19 @@ footer {
             color: #BF0000;
             text-decoration: none;
         }
-        
+
     }
+
     .tel-address__wrapper-img {
         display: flex;
         align-items: center;
         width: 195px;
         justify-content: space-between;
     }
+
     .sms-address__wrapper {
         display: block;
+
         h5 {
             font-family: 'Roboto';
             font-style: normal;
@@ -131,9 +142,10 @@ footer {
             line-height: 14px;
             display: flex;
             align-items: center;
-            color: #FFFFFF;
+            color: #000000;
             margin-bottom: 3px;
         }
+
         a {
             font-family: 'Roboto';
             font-style: normal;
@@ -145,8 +157,9 @@ footer {
             color: #BF0000;
             text-decoration: none;
         }
-        
+
     }
+
     .sms-address__wrapper-img {
         display: flex;
         align-items: center;
@@ -165,5 +178,16 @@ footer {
     color: #9A9EA6;
     text-align: center;
     display: block;
+    text-decoration: none;
+}
+
+.last-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #9A9EA6;
     text-decoration: none;
 }

@@ -1,0 +1,79 @@
+.shirt-title__wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    span {
+        display: block;
+        width: 65%;
+        height: 3px;
+        background-color: #BF0000;
+    }
+}
+
+.shirt-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    color: #BF0000;
+    width: 990px;
+    margin: 0 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shirt-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 100px;
+    li {
+        .shirt-lorem {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 29px;
+            color: #BF0000;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        .shirt-lorem::after {
+            content: "";
+            background-image: url(../../img/shirt-plus.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+        span {
+            display: flex;
+            align-items: center;
+            h3:first-child {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 35px;
+                    color: #000000;
+            }
+            h3:last-child {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 35px;
+                text-decoration-line: line-through;
+                color: #000000;
+                margin-left: 22.7px;
+            }
+        }
+    }
+}

@@ -1,146 +1,32 @@
-import React from 'react'
-import './Hero.css'
-import puma from '../../assets/Img/puma.png'
-import marka from '../../assets/Img/marka.png'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Hero.scss";
+
 function Hero() {
   return (
-    <div className='Hero'>
-        <div className="container">
-            <h1 className='Hero__title1'>New Products</h1>
-            <p className='Hero__title2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus <br /> venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim Lorem</p>
-            <ul className='Hero__list'>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum </b><i class="bi bi-plus-lg Hero__icon"></i><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-            </ul>
-            <ul className='Hero__list'>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum </b><i class="bi bi-plus-lg Hero__icon"></i><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-            </ul>
-            <ul className='Hero__list'>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum </b><i class="bi bi-plus-lg Hero__icon"></i><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-                <li className='Hero__item'>
-                    <img className='Hero__img' src={puma} alt="" />
-                    <b className='Hero__title3'>Lorem ipsum <i class="bi bi-plus-lg Hero__icon"></i></b><br />
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i>
-                    <i class="bi bi-star-fill Hero__icon2"></i><br /><br />
-                    <b className='Hero__title4'>$19.20</b>
-                    <b className='Hero__title5'>$21.20</b>
-                </li>
-            </ul>
-            <img className='marka' src={marka} alt="" />
+    <div className="container hero-wrapper">
+      <div className="hero-first__wrapper">
+        <h4>New Shirt from ROMA FC</h4>
+        <Link>Buy Now</Link>
+      </div>
+      <div>
+        <div className="hero-secund__wrapper">
+          <h4>New Cap from ROMA FC</h4>
+          <Link>Buy Now</Link>
         </div>
+        <div className="hero-third-and-fourth_wrapper">
+          <div className="hero-third__wrapper">
+            <h4>New accessories</h4>
+            <Link>Buy Now</Link>
+          </div>
+          <div className="hero-fourth__wrapper">
+            <h4>New Bag</h4>
+            <Link>Buy Now</Link>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

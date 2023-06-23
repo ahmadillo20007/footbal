@@ -1,14 +1,15 @@
 import React from "react";
 import "./Footer.scss";
-import Logo from "../../img/logo.png";
 import { Link } from "react-router-dom";
-import Insta from "../../img/insta.png"
-import Telegram from "../../img/telegram.png"
-import Facebook from "../../img/facebook.png"
-import Youtube from "../../img/youtube.png"
-import Twiter from "../../img/twitter.png"
-import Call from "../../img/call.png"
-import Sms from "../../img/Vector (6).png"
+import Logo from "../../img/logo.png"
+import Insta from "../../img/insta.svg"
+import Telegram from "../../img/telegram.svg"
+import Facebook from "../../img/facebook.svg"
+import Youtube from "../../img/youtube.svg"
+import Twiter from "../../img/twitter.svg"
+import Call from "../../img/call.svg"
+import Sms from "../../img/Sms.svg"
+
 
 function Footer() {
   return (
@@ -42,23 +43,25 @@ function Footer() {
             <Link>Academy</Link>
             <Link>Sponsors</Link>
         </div>
-        <div className="footer-address__wrapper">
-            <div className="tel-address__wrapper-img">
-                <img src={Call} alt="" />
-                <div className="tel-address__wrapper">
-                    <h5>Have a question?</h5>
-                    <Link>+998 97 234 34 07</Link>
+        <div className="last-wrapper">
+            <div className="footer-address__wrapper">
+                <div className="tel-address__wrapper-img">
+                    <img src={Call} alt="" />
+                    <div className="tel-address__wrapper">
+                        <h5>Have a question?</h5>
+                        <Link>+998 97 234 34 07</Link>
+                    </div>
+                </div>
+                <div className="sms-address__wrapper-img">
+                    <img src={Sms} alt="" />
+                    <div className="sms-address__wrapper">
+                        <h5>Have a question?</h5>
+                        <Link>fc.andijon.com</Link>
+                    </div>
                 </div>
             </div>
-            <div className="sms-address__wrapper-img">
-                <img src={Sms} alt="" />
-                <div className="sms-address__wrapper">
-                    <h5>Have a question?</h5>
-                    <Link>fc.andijon.com</Link>
-                </div>
-            </div>
+            <Link className="last-link">© 2000-2021, All Rights Reserved</Link>
         </div>
-        <Link className="footer-last__link">© 2000-2021, All Rights Reserved</Link>
       </div>
     </footer>
   );
